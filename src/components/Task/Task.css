@@ -1,0 +1,17 @@
+section table thead tr th{
+    color: white;
+    font-weight: 300;
+
+}
+.tdColorBlue {
+    color: #72c0db;
+}
+section table tbody tr td i{
+    color:#e5aaa7;
+}
+.iDark, section table tbody tr th i{
+    color: #9295a1;
+}
+section table tbody tr td{
+    font-weight: 470;
+}

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Header.css';
 
-class header extends Component {
+class Header extends Component {
 
 constructor(props) {
 super(props);
@@ -37,4 +37,4 @@ return (
 
 }
 
-export default header;
+export default Header;
