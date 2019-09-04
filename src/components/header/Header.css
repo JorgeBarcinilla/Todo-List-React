@@ -1,0 +1,37 @@
+.menu a{
+    color: white;
+    font-weight: 300;
+
+}
+.menu a.active{
+    font-weight: normal;
+}
+.menu a:first-child{
+margin-right: 30px;
+}
+.nav-left-section div, .nav-left-section a{
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav-left-section .data{
+    padding-left: 30px;
+    border-left: 2px solid white;
+}
+.nav-left-section .data span{
+    font-weight: 300;
+    display: inline-block;
+}
+.nav-left-section .data h4{
+    margin: 0;
+}
+header nav{
+    background-color: #72c0db!important;
+    color: white;
+    padding: 20px 40px!important;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+}
+header h2{
+    margin-right: 30px!important;
+    margin-bottom: 0;
+    font-weight: bold;
+}
