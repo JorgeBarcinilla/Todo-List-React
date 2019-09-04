@@ -7,6 +7,7 @@ class Table extends Component {
     constructor(props) {
     super(props);
         this.tasks = props.tasks;
+        this.onRemoveTask = this.props.onRemoveTask;
     }
     
     render(props) {
@@ -29,6 +30,8 @@ class Table extends Component {
                     <Task
                         taskTitle = {task.taskTitle}
                         taskDate = {task.taskDate}
+                        taskId = {task.taskId}
+                        onRemoveTask = {this.onRemoveTask}
                     />
                 )
             })

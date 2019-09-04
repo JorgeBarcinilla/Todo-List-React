@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import './Header.css';
+import Date_format from "../../helpers/date-format";
 
 class Header extends Component {
 
 constructor(props) {
 super(props);
 this.cantTasks = props.cantTasks;
+this.date = new Date();
 }
 
 render(props) {
@@ -18,7 +20,9 @@ return (
             </a>
             <div className="data">
                 <h4>{this.cantTasks} Incomplete Task</h4>
-                <span> fecha </span>
+                <Date_format 
+                    date = {this.date}
+                />
             </div>
         </div>
 

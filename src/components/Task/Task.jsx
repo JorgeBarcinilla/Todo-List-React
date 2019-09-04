@@ -7,8 +7,16 @@ class Task extends Component {
     super(props);
         this.taskTitle = props.taskTitle;
         this.taskDate = props.taskDate;
+        this.taskId = props.taskId;
     }
     
+    removeTask(id){
+        const response = window.confirm('Estar seguro de eliminar la tarea');
+        if(response){
+            this.props.onRemoveTask(id);
+        }
+    }
+
     render(props) {
     return (
         <tr>
@@ -17,7 +25,7 @@ class Task extends Component {
             <td>{this.taskDate}</td>
             <td>
               <i className="material-icons iDark">edit</i>
-              <i className="material-icons">delete_outline</i>
+              <i className="material-icons" onClick={() => this.removeTask(this.taskId)}>delete_outline</i>
             </td>
         </tr>
     )
