@@ -1,0 +1,27 @@
+.form-add-task{
+    box-shadow: 00 2px 4px rgba(52, 58, 64, 0.1);
+    border-radius: 4px;
+    background-color: white;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+
+.form-add-task h4{
+    color: #72c0db;
+}
+
+.form-add-task .btn-success{
+    background-color: #72c0db;
+    border: 1px solid #72c0db;
+}
+
+.form-add-task .btn-success:hover{
+    background-color: #46aed1;
+    border: 1px solid #46aed1;
+}
+
+.form-group textarea{
+    height: 90px;
+}
+
+

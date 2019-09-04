@@ -11,8 +11,8 @@ class Table extends Component {
     
     render(props) {
     return (
-        <div class="container-fluid">
-        <table class="table" id="#myTable">
+        <div className="container-fluid">
+        <table className="table" id="#myTable">
         <thead>
           <tr>
             <th></th>

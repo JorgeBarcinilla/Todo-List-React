@@ -2,6 +2,7 @@ table{
     box-shadow: 00 2px 4px rgba(52, 58, 64, 0.1);
     border-radius: 4px;
     background-color: white;
+    margin-top: 30px;
 }
 table thead{
     background-color: #194767;

@@ -1,0 +1,19 @@
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid #ececec;
+    padding: 40px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    }
+    footer small{
+        float: right;
+        color: #ececec;
+    }
+    footer h4{
+        /*para que tome solo el espacio del h4*/
+        display: inline-block;
+    }
